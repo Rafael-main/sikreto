@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "970045678864",
+    "project_id": "sikreto-7cb85",
+    "storage_bucket": "sikreto-7cb85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970045678864:android:68481dd607ef1ad5797195",
+        "android_client_info": {
+          "package_name": "com.example.sikreto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970045678864-d8rsnb7g290eo9p3vkulg9it4sc4nn70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPCxmC6VcsCPQNZ2C84gJJnUCT8wlfM2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970045678864-d8rsnb7g290eo9p3vkulg9it4sc4nn70.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "970045678864-4p9r56d62nbq3bf1ht2jdheoi8vuqrsg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sikreto"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
