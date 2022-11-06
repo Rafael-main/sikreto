@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'screens/widget_tree.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -8,8 +9,15 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  FlutterNativeSplash.remove();
   runApp(const SikretoApp());
 }
+
+// Future initialization(BuildContext? context) async {
+//   // Load some resources
+
+//   await Future.delayed(Duration(seconds: 3));
+// }
 
 class SikretoApp extends StatelessWidget {
   const SikretoApp({Key? key}) : super(key: key);
