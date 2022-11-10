@@ -118,7 +118,30 @@ class HomeScreen extends StatelessWidget {
           backgroundColor: Colors.green,
           // icon: const IconButton(Icons.add),
           icon: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              showModalBottomSheet<void>(
+                context: context,
+                builder: (BuildContext context) {
+                  return Container(
+                    height: 200,
+                    color: Colors.amber,
+                    child: Center(
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        mainAxisSize: MainAxisSize.min,
+                        children: <Widget>[
+                          const Text('Modal BottomSheet'),
+                          ElevatedButton(
+                            child: const Text('Close BottomSheet'),
+                            onPressed: () => Navigator.pop(context),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              );
+            },
             icon: const Icon(Icons.add),
           ),
           label: const Text('ADD ITEM'),
